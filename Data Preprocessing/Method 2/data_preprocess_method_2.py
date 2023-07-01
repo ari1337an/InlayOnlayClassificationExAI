@@ -4,8 +4,8 @@ import scipy.ndimage
 import os
 
 ## create a directory named "data_npy" in the same directory as this file if not already created.
-if not os.path.exists("test_data_npy"):
-    os.mkdir("test_data_npy")
+if not os.path.exists("data_npy"):
+    os.mkdir("data_npy")
     
 
 ## Traverse through the directory and get the path of all the .stl files
